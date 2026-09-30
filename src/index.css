@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.homePage {
+  background-image: url('./assets/camera_1.webp'); /* path sahi hona chahiye */
+  background-size: cover;   /* image pura fill kare */
+  background-position: center; 
+  background-repeat: no-repeat;/* center align */
+  height: 60vh;         
+  width: 160vh;
+  clip-path: polygon(
+  0% 0%, 100% 0%, 100% 95%, 
+  90% 100%, 75% 95%, 60% 100%, 
+  45% 95%, 30% 100%, 15% 95%, 
+  0% 100%
+);
+
+}
+
+.footer{
+  background-image: url('./assets/footer.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+:root {
+  --font-script: "Great Vibes", cursive;
+}
